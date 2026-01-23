@@ -1,6 +1,6 @@
 import ListaPostagens from "../../components/postagem/listapostagem/ListaPostagem";
 import ModalPostagem from "../../components/postagem/modalpostagem/ModalPostagem";
-import homeLogo from "../../assets/img/HomeLogo1.png"
+import homeLogo from "../../assets/img/homeLogo1.png"
 
 function Home() {
     return (
