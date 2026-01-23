@@ -46,4 +46,5 @@ function CardPostagem({ postagem }: CardPostagensProps) {
     )
 }
 
+
 export default CardPostagem
