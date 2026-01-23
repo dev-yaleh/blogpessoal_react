@@ -22,9 +22,9 @@ function Navbar() {
 
         component = (
 
-            <div className="w-full flex justify-center py-4 bg-indigo-900 text-white">
+            <div className="w-full flex justify-center py-4 bg-blue-900 text-white">
                 <div className="container flex justify-between text-lg mx-8">
-                    <Link to='/home' className="text-2xl font-bold">Blog Pessoal</Link>
+                    <Link to='/home' className="font-arial text-2xl font-bold">Blog Pessoal</Link>
 
                     <div className="flex gap-4">
                         <Link to='/postagens' className="hover:underline">Postagens</Link>

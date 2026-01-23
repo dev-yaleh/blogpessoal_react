@@ -34,7 +34,7 @@ function Login() {
 
     return (
         <>
-            <div className="grid grid-cols-1 lg:grid-cols-2 h-screen place-items-center font-bold ">
+            <div className="grid grid-cols-1 bg-white lg:grid-cols-2 h-screen place-items-center font-bold ">
                 <form className="flex justify-center items-center flex-col w-1/2 gap-4" 
                     onSubmit={login}>
 
@@ -65,8 +65,8 @@ function Login() {
                     </div>
                     <button 
                         type='submit' 
-                        className="rounded bg-indigo-400 flex justify-center
-                                   hover:bg-indigo-900 text-white w-1/2 py-2">
+                        className="rounded bg-blue-500 flex justify-center
+                                   hover:bg-blue-900 text-white w-1/2 py-2">
                         { isLoading ? 
                             <ClipLoader 
                                 color="#ffffff" 
@@ -76,11 +76,11 @@ function Login() {
                         }
                     </button>
 
-                    <hr className="border-slate-800 w-full" />
+                    <hr className="border-slate-700 w-full" />
 
-                   <p>
+                   <p className="text-slate-800">
                         Ainda não tem uma conta?{' '}
-                        <Link to="/cadastro" className="text-indigo-800 hover:underline">
+                        <Link to="/cadastro" className="text-blue-900 hover:underline">
                             Cadastre-se
                         </Link>
                     </p>

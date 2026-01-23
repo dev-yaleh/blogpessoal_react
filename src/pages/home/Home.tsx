@@ -1,10 +1,11 @@
-import ListaPostagens from "../../postagem/listapostagem/ListaPostagem";
-import ModalPostagem from "../../postagem/modalpostagem/ModalPostagem";
+import ListaPostagens from "../../components/postagem/listapostagem/ListaPostagem";
+import ModalPostagem from "../../components/postagem/modalpostagem/ModalPostagem";
+import homeLogo from "../../assets/img/HomeLogo1.png"
 
 function Home() {
     return (
         <>
-            <div className="bg-indigo-900 flex justify-center">
+            <div className="bg-blue-900 flex justify-center">
                 <div className='container grid grid-cols-2 text-white'>
                     <div className="flex flex-col gap-4 items-center justify-center py-4">
                         <h2 className='text-5xl font-bold'>
@@ -23,9 +24,10 @@ function Home() {
 
                     <div className="flex justify-center">
                         <img
-                            src="https://i.imgur.com/fyfri1v.png"
+                            src={homeLogo}
                             alt="Imagem Página Home"
-                            className='w-2/3'
+                            className='h-85 w-115'
+
                         />    
                     </div>
                 </div>
